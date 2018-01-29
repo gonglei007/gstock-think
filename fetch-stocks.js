@@ -8,6 +8,8 @@ var async = require('async');
 
 var requestInterval = null;
 var industryData = require('./data/json/S_Finance_bankuai_sinaindustry.json');
+/// 拉取行业详情。即按行业拉取每个行业中的股票列表。
+///
 
 ///远程拉取（延迟1s，免得被开放平台认为是爬虫）
 var fetchRemoteData = function(){
@@ -89,6 +91,7 @@ var fetchLocalData = function(){
 
 }
 
+//http://quotes.money.163.com/service/chddata.html%3Fcode%3D0601398%26start%3D20000720%26end%3D20150508
 //fetchRemoteData();
 fetchLocalData();
 
