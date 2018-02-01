@@ -7,6 +7,19 @@ var industry = module.exports;
 
 var industryData = require('../data/json/S_Finance_bankuai_sinaindustry.json');
 
+industry.getIndustryNameByTag = function(tag){
+    if(industryData[tag] == null || industryData[tag] == undefined){
+        return "Unknown";
+    }
+    var values = industryData[tag].split(',');
+    //console.log(values);
+    if(values[1] == null || values[1] == undefined){
+        return 'Error';
+    }
+    return values[1]
+
+}
+
 /**
  * 遍历行业分类
  * */
