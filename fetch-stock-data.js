@@ -14,9 +14,11 @@ var fetchRemoteData = function(){
     industry.eachStocksForAll(
         function(stock, callback){
             var code = stock['symbol'];
-            var stockDataPath = './data/csv/stocks/' + code + '.csv';
-            var start = 20080101;
-            var end = 20180101;
+            //var start = 20080101;
+            //var end = 20180101;
+            var start = 20180101;
+            var end = 20180201;
+            var stockDataPath = ('./data/csv/stocks/' + start + '-' + end + '/' + code + '.csv');
             ///*
             neteaseApi.downloadHistory(code, start, end, stockDataPath, function(err){
                 if(err != null){

@@ -68,7 +68,7 @@ genReport.genIndustryStatistic = function(){
                     // 获取股票数据：时间、股票、市值
                     process.nextTick(function(){
                         var code = stock['symbol'];
-                        var stockDataPath = './data/csv/stocks/' + code + '.csv';
+                        var stockDataPath = './data/csv/stocks/20180101-20180201/' + code + '.csv';
                         console.log(stockDataPath);
                         var workbook = new Excel.Workbook();
                         workbook.csv.readFile(stockDataPath)
@@ -136,7 +136,7 @@ genReport.genIndustryStatistic = function(){
                 worksheet.addRow(rowData);
             }
             //worksheet.commit();
-            workbook.xlsx.writeFile('StockStatistic.xlsx', {});
+            workbook.xlsx.writeFile('StockStatistic-201801.xlsx', {});
             console.log(statisticData);
         }
     );
