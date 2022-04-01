@@ -23,7 +23,6 @@
 * Code review
 * Other guidelines
 
-### Who do I talk to? ###
+### 交流讨论 ###
 
-* Repo owner or admin
-* Other community or team contact
+* 股票交流QQ群：229361547 (股票实验室。交流经济、行业、政策、工具等。)
