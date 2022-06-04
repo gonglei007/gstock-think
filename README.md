@@ -2,26 +2,10 @@
 
 股票量化分析工具.
 
-### What is this repository for? ###
+### 仓库内容 ###
 
-* Quick summary
-* Version
+* 此仓库中提供了一批抓去股市数据，生成统计报表的工具脚本。
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
 
 ### 交流讨论 ###
 
