@@ -4,6 +4,8 @@
 
 ### 工具脚本说明 ###
 
+工具脚本都在tools目录下。
+
 | 脚本 | 功能 |
 | :-------- | --------: |
 | stockFillData.js | 分析当日的活跃股票 | 
@@ -14,7 +16,7 @@
 
 **运行**
 
-node stockFillData.js
+` node stockFillData.js `
 
 **数据**
 
@@ -22,7 +24,7 @@ node stockFillData.js
 
 #### 股票分析报告
 
-TODO
+* TODO
 
 ----
 ### 交流讨论 ###
