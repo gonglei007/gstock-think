@@ -7,7 +7,8 @@
   },
   "devDependencies": {
     "dateformat": "^3.0.2",
-    "exceljs": "^0.8.2",
+    "exceljs": "^4.4.0",
+    "node-fetch": "^2.7.0",
     "node-xlsx": "^0.11.2",
     "utf8": "^3.0.0"
   }
